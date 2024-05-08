@@ -9,6 +9,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.google.android.material.transition.Hold;
+
 import java.util.List;
 
 public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.MyViewHolder>{
@@ -31,11 +33,15 @@ public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.MyViewHo
         Message message=messageList.get(position);
         if(message.getSentby().equals(Message.SENT_BY_ME))
         {
-
+            holder.leftChatview.setVisibility(View.GONE);
+            holder.rightChatView.setVisibility(View.VISIBLE);
+            holder.rightTextView.setText(message.getMessage());
         }
         else
         {
-            
+            holder.rightChatView.setVisibility(View.GONE);
+            holder.leftChatview.setVisibility(View.VISIBLE);
+            holder.leftTextView.setText(message.getMessage());
         }
     }
 

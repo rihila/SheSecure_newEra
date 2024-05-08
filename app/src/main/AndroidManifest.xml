@@ -18,7 +18,10 @@
             android:name=".VirtualActivity"
             android:exported="false"
             android:label="@string/title_activity_virtual"
-            android:theme="@style/Theme.SHESECURE10" />
+            android:theme="@style/Theme.SHESECURE10">
+
+
+            </activity>
         <activity
             android:name=".HomeActivity"
             android:exported="false" />
@@ -33,6 +36,8 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+
         </activity>
     </application>
 

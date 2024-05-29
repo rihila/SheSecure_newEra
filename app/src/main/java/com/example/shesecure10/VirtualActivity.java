@@ -39,17 +39,20 @@ import okhttp3.Request;
 import okhttp3.RequestBody;
 import okhttp3.Response;
 
+
+
+
 public class VirtualActivity extends AppCompatActivity {
     RecyclerView recyclerView;
     EditText messageEditText;
     ImageButton sendButton;
     List<Message> messageList;
     MessageAdapter messageAdapter;
+
+    String apiKey = BuildConfig.API_KEY;
+
     public static final MediaType JSON = MediaType.get("application/json");
     OkHttpClient client = new OkHttpClient();
-
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -95,7 +98,7 @@ public class VirtualActivity extends AppCompatActivity {
 
         messageList.add(new Message("Typing...",Message.SENT_BY_BOT));
 
-        GenerativeModel gm = new GenerativeModel(/* modelName */ "gemini-pro", "AIzaSyC9TdV3w6aGAbJ6Gp2t5Da3K5Y2p0IToi4");
+        GenerativeModel gm = new GenerativeModel(/* modelName */ "gemini-pro", apiKey);
         GenerativeModelFutures model = GenerativeModelFutures.from(gm);
 
         Content content = new Content.Builder()

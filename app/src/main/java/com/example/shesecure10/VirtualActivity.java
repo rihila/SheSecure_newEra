@@ -51,8 +51,7 @@ public class VirtualActivity extends AppCompatActivity {
 
     String apiKey = BuildConfig.API_KEY;
 
-    public static final MediaType JSON = MediaType.get("application/json");
-    OkHttpClient client = new OkHttpClient();
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -149,64 +148,6 @@ public class VirtualActivity extends AppCompatActivity {
         addToChat(response,Message.SENT_BY_BOT);
     }
 
-    void callAPI(String question)
-    {
 
-        JSONObject jsonBODY =new JSONObject();
-        try {
-
-
-            JSONArray messagesArray = new JSONArray();
-            JSONObject messageObject = new JSONObject();
-            messageObject.put("role", "user");
-            messageObject.put("content", question);
-            messagesArray.put(messageObject);
-            jsonBODY.put("model","gpt-3.5-turbo");
-            jsonBODY.put("messages", messagesArray);
-            jsonBODY.put("max_tokens", 4000);
-            jsonBODY.put("temperature",0);
-        } catch (JSONException e) {
-            throw new RuntimeException(e);
-        }
-
-        RequestBody body=RequestBody.create(jsonBODY.toString(),JSON);
-        Request request=new Request.Builder()
-                .url("https://api.openai.com/v1/chat/completions")
-                .header("Authorization","Bearer sk-proj-kaCOULsZg2fb5i3bGQxpT3BlbkFJAOTjyCHE5k8T5jvr3oXS")
-                .post( body)
-                .build();
-
-        client.newCall(request).enqueue(new Callback() {
-            @Override
-            public void onFailure(@NonNull Call call, @NonNull IOException e) {
-                addResponse("Failed to load the response due to "+e.getMessage());
-            }
-
-            @Override
-            public void onResponse(@NonNull Call call, @NonNull Response response) throws IOException {
-
-                if (response.isSuccessful())
-                {
-                    JSONObject jsonObject= null;
-                    try {
-
-
-                        assert response.body() != null;
-                        jsonObject = new JSONObject(response.body().string());
-                        JSONArray jsonArray = jsonObject.getJSONArray("choices");
-                        String result = jsonArray.getJSONObject(0).getJSONObject("message").getString("content");
-                        addResponse(result.trim());
-                    } catch (JSONException e) {
-                        throw new RuntimeException(e);
-                    }
-
-                }
-                else
-                {
-                    addResponse("Failed to load the response due to "+response.body().string());
-                }
-            }
-        });
-    }
 }
 

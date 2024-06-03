@@ -48,84 +48,8 @@ public class RegisterActivity extends AppCompatActivity {
 
         btn=findViewById(R.id.button3reg);
 
-       /* binding.button3reg.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
 
-                Toast.makeText(getApplicationContext(),"hi", Toast.LENGTH_SHORT).show();
-                auth.createUserWithEmailAndPassword(binding.editTextTextEmailAddressreg.getText().toString(),binding.editTextTextPassword2reg3.getText().toString()).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-                    @Override
-                    public void onComplete(@NonNull Task<AuthResult> task) {
-                        if(task.isSuccessful())
-
-                        {
-                            User users=new User(binding.editTextTextreg3.getText().toString(),binding.editTextTextEmailAddressreg.getText().toString(),binding.editTextTextPassword2reg3.getText().toString());
-                            String id=task.getResult().getUser().getUid();
-                            database.getReference().child("Users").child(id).setValue(users);
-                            Toast.makeText(getApplicationContext(), "User Created Successfully", Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(RegisterActivity.this,LoginActivity.class));
-                        }
-                        else
-                        {
-                            Toast.makeText(getApplicationContext(), task.getException().getMessage(), Toast.LENGTH_SHORT).show();
-                        }
-                    }
-                });
-            }
-        });*/
-
-       btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                Toast.makeText(getApplicationContext(),"hi", Toast.LENGTH_SHORT).show();
-                auth.createUserWithEmailAndPassword(binding.editTextTextEmailAddressreg.getText().toString(),binding.editTextTextPassword2reg3.getText().toString()).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-                    @Override
-                    public void onComplete(@NonNull Task<AuthResult> task) {
-                        if(task.isSuccessful())
-
-                        {
-                            User users=new User(binding.editTextTextreg3.getText().toString(),binding.editTextTextEmailAddressreg.getText().toString(),binding.editTextTextPassword2reg3.getText().toString());
-                            String id=task.getResult().getUser().getUid();
-                            database.getReference().child("Users").child(id).setValue(users);
-                            Toast.makeText(getApplicationContext(), "User Created Successfully", Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(RegisterActivity.this,LoginActivity.class));
-                        }
-                        else
-                        {
-                            Toast.makeText(getApplicationContext(), task.getException().getMessage(), Toast.LENGTH_SHORT).show();
-                        }
-                    }
-                });
-            }
-        });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      /*  edUsername=findViewById(R.id.editTextTextreg3);
+        edUsername=findViewById(R.id.editTextTextreg3);
         edEmail=findViewById(R.id.editTextTextEmailAddressreg);
         edPassword=findViewById(R.id.editTextTextPassword2reg3);
         edConfirm=findViewById(R.id.editTextTextPassword22reg3);
@@ -149,8 +73,9 @@ public class RegisterActivity extends AppCompatActivity {
                 String password = edPassword.getText().toString();
                 String email = edEmail.getText().toString();
                 String confirm = edConfirm.getText().toString();
+                Toast.makeText(getApplicationContext(), "Please fill All details", Toast.LENGTH_SHORT).show();
 
-                Database db=new Database(getApplicationContext(),"SheSecure",null,1);
+              
 
                 if (username.length() == 0 || password.length() == 0 || email.length() == 0 || confirm.length() == 0 ) {
                     Toast.makeText(getApplicationContext(), "Please fill All details", Toast.LENGTH_SHORT).show();
@@ -158,15 +83,31 @@ public class RegisterActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "Password and Confirm Password didn't match", Toast.LENGTH_SHORT).show();
                 } else {
 
-                    db.register(username,email,password);
+                   registeruser(username,password,email,confirm);
 
-                    Toast.makeText(getApplicationContext(), "Registration Successful", Toast.LENGTH_SHORT).show();
-                    startActivity(new Intent(RegisterActivity.this,LoginActivity.class));
+
                 }
             }
 
-        });*/
+        });
 
 
+    }
+
+    private void registeruser(String username, String password, String email, String confirm) {
+        auth.createUserWithEmailAndPassword(email,password).addOnCompleteListener(RegisterActivity.this, new OnCompleteListener<AuthResult>() {
+            @Override
+            public void onComplete(@NonNull Task<AuthResult> task) {
+                if(task.isSuccessful())
+                {
+                    Toast.makeText(getApplicationContext(), "Registration Successful", Toast.LENGTH_SHORT).show();
+                    startActivity(new Intent(RegisterActivity.this,LoginActivity.class));
+                }
+                else
+                {
+                    Toast.makeText(getApplicationContext(), "Registration Failed!", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
     }
 }

@@ -100,3 +100,4 @@ dependencies {
         implementation("org.reactivestreams:reactive-streams:1.0.4")
     }
 }
+apply(plugin = "com.google.gms.google-services")

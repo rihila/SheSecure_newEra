@@ -97,7 +97,7 @@ public class VirtualActivity extends AppCompatActivity {
 
         messageList.add(new Message("Typing...",Message.SENT_BY_BOT));
 
-        GenerativeModel gm = new GenerativeModel(/* modelName */ "gemini-pro", apiKey);
+        GenerativeModel gm = new GenerativeModel(   "gemini-pro", apiKey);
         GenerativeModelFutures model = GenerativeModelFutures.from(gm);
 
         Content content = new Content.Builder()
@@ -147,7 +147,6 @@ public class VirtualActivity extends AppCompatActivity {
         messageList.remove(messageList.size()-1);
         addToChat(response,Message.SENT_BY_BOT);
     }
-
 
 }
 

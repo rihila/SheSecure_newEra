@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.6\\com.example.shesecure10.app-mergeDebugResources-51:\\layout\\activity_virtual.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.6\\com.example.shesecure10.app-main-54:\\layout\\activity_virtual.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.6\\com.example.shesecure10.app-mergeDebugResources-51:\\layout\\mapactivity.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.6\\com.example.shesecure10.app-main-54:\\layout\\mapactivity.xml"
+    },
+    {
+        "merged": "com.example.shesecure10.app-mergeDebugResources-51:/layout/mapactivity.xml",
+        "source": "com.example.shesecure10.app-main-54:/layout/mapactivity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.6\\com.example.shesecure10.app-mergeDebugResources-51:\\layout\\activity_home.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.6\\com.example.shesecure10.app-main-54:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.6\\com.example.shesecure10.app-mergeDebugResources-51:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.6\\com.example.shesecure10.app-main-54:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.6\\com.example.shesecure10.app-mergeDebugResources-51:\\layout\\fragment_second.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.6\\com.example.shesecure10.app-main-54:\\layout\\fragment_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.6\\com.example.shesecure10.app-mergeDebugResources-51:\\layout\\activity_register.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.6\\com.example.shesecure10.app-main-54:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.6\\com.example.shesecure10.app-mergeDebugResources-51:\\layout\\fragment_first.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.6\\com.example.shesecure10.app-main-54:\\layout\\fragment_first.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.6\\com.example.shesecure10.app-mergeDebugResources-51:\\layout\\chat_item.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.6\\com.example.shesecure10.app-main-54:\\layout\\chat_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.6\\com.example.shesecure10.app-mergeDebugResources-51:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.6\\com.example.shesecure10.app-main-54:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\8.6\\com.example.shesecure10.app-mergeDebugResources-51:\\layout\\content_virtual.xml",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\8.6\\com.example.shesecure10.app-main-54:\\layout\\content_virtual.xml"
+    }
+]

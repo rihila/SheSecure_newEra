@@ -1,0 +1,239 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.shesecure10"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\2-2\Sadlab\SheSecure\SheSecure_newEra\app\src\main\AndroidManifest.xml:4:5-66
+11-->D:\2-2\Sadlab\SheSecure\SheSecure_newEra\app\src\main\AndroidManifest.xml:4:22-64
+12    <!-- Always include this permission , for map -->
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->D:\2-2\Sadlab\SheSecure\SheSecure_newEra\app\src\main\AndroidManifest.xml:6:5-81
+13-->D:\2-2\Sadlab\SheSecure\SheSecure_newEra\app\src\main\AndroidManifest.xml:6:22-78
+14
+15    <!-- Include only if your app benefits from precise location access. -->
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->D:\2-2\Sadlab\SheSecure\SheSecure_newEra\app\src\main\AndroidManifest.xml:9:5-79
+16-->D:\2-2\Sadlab\SheSecure\SheSecure_newEra\app\src\main\AndroidManifest.xml:9:22-76
+17
+18    <uses-feature
+18-->[com.mapbox.maps:android-core:11.3.2] C:\Users\Hp\.gradle\caches\transforms-4\a26990003cbf1ab86865f351df8d3304\transformed\android-core-11.3.2\AndroidManifest.xml:10:5-12:35
+19        android:glEsVersion="0x00030000"
+19-->[com.mapbox.maps:android-core:11.3.2] C:\Users\Hp\.gradle\caches\transforms-4\a26990003cbf1ab86865f351df8d3304\transformed\android-core-11.3.2\AndroidManifest.xml:11:9-41
+20        android:required="true" />
+20-->[com.mapbox.maps:android-core:11.3.2] C:\Users\Hp\.gradle\caches\transforms-4\a26990003cbf1ab86865f351df8d3304\transformed\android-core-11.3.2\AndroidManifest.xml:12:9-32
+21    <uses-feature
+21-->[com.mapbox.maps:android-core:11.3.2] C:\Users\Hp\.gradle\caches\transforms-4\a26990003cbf1ab86865f351df8d3304\transformed\android-core-11.3.2\AndroidManifest.xml:13:5-15:36
+22        android:name="android.hardware.wifi"
+22-->[com.mapbox.maps:android-core:11.3.2] C:\Users\Hp\.gradle\caches\transforms-4\a26990003cbf1ab86865f351df8d3304\transformed\android-core-11.3.2\AndroidManifest.xml:14:9-45
+23        android:required="false" />
+23-->[com.mapbox.maps:android-core:11.3.2] C:\Users\Hp\.gradle\caches\transforms-4\a26990003cbf1ab86865f351df8d3304\transformed\android-core-11.3.2\AndroidManifest.xml:15:9-33
+24
+25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+25-->[com.mapbox.maps:android-core:11.3.2] C:\Users\Hp\.gradle\caches\transforms-4\a26990003cbf1ab86865f351df8d3304\transformed\android-core-11.3.2\AndroidManifest.xml:18:5-79
+25-->[com.mapbox.maps:android-core:11.3.2] C:\Users\Hp\.gradle\caches\transforms-4\a26990003cbf1ab86865f351df8d3304\transformed\android-core-11.3.2\AndroidManifest.xml:18:22-76
+26    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+26-->[com.mapbox.maps:android-core:11.3.2] C:\Users\Hp\.gradle\caches\transforms-4\a26990003cbf1ab86865f351df8d3304\transformed\android-core-11.3.2\AndroidManifest.xml:19:5-76
+26-->[com.mapbox.maps:android-core:11.3.2] C:\Users\Hp\.gradle\caches\transforms-4\a26990003cbf1ab86865f351df8d3304\transformed\android-core-11.3.2\AndroidManifest.xml:19:22-73
+27
+28    <permission
+28-->[androidx.core:core:1.9.0] C:\Users\Hp\.gradle\caches\transforms-4\8fcc6035a70ac34d9a3e5445ad8340de\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+29        android:name="com.example.shesecure10.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+29-->[androidx.core:core:1.9.0] C:\Users\Hp\.gradle\caches\transforms-4\8fcc6035a70ac34d9a3e5445ad8340de\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+30        android:protectionLevel="signature" />
+30-->[androidx.core:core:1.9.0] C:\Users\Hp\.gradle\caches\transforms-4\8fcc6035a70ac34d9a3e5445ad8340de\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+31
+32    <uses-permission android:name="com.example.shesecure10.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+32-->[androidx.core:core:1.9.0] C:\Users\Hp\.gradle\caches\transforms-4\8fcc6035a70ac34d9a3e5445ad8340de\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+32-->[androidx.core:core:1.9.0] C:\Users\Hp\.gradle\caches\transforms-4\8fcc6035a70ac34d9a3e5445ad8340de\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+33
+34    <application
+34-->D:\2-2\Sadlab\SheSecure\SheSecure_newEra\app\src\main\AndroidManifest.xml:12:5-48:19
+35        android:allowBackup="true"
+35-->D:\2-2\Sadlab\SheSecure\SheSecure_newEra\app\src\main\AndroidManifest.xml:13:9-35
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.9.0] C:\Users\Hp\.gradle\caches\transforms-4\8fcc6035a70ac34d9a3e5445ad8340de\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+37        android:dataExtractionRules="@xml/data_extraction_rules"
+37-->D:\2-2\Sadlab\SheSecure\SheSecure_newEra\app\src\main\AndroidManifest.xml:14:9-65
+38        android:debuggable="true"
+39        android:extractNativeLibs="true"
+40        android:fullBackupContent="@xml/backup_rules"
+40-->D:\2-2\Sadlab\SheSecure\SheSecure_newEra\app\src\main\AndroidManifest.xml:15:9-54
+41        android:icon="@mipmap/ic_launcher"
+41-->D:\2-2\Sadlab\SheSecure\SheSecure_newEra\app\src\main\AndroidManifest.xml:16:9-43
+42        android:label="@string/app_name"
+42-->D:\2-2\Sadlab\SheSecure\SheSecure_newEra\app\src\main\AndroidManifest.xml:17:9-41
+43        android:roundIcon="@mipmap/ic_launcher_round"
+43-->D:\2-2\Sadlab\SheSecure\SheSecure_newEra\app\src\main\AndroidManifest.xml:18:9-54
+44        android:supportsRtl="true"
+44-->D:\2-2\Sadlab\SheSecure\SheSecure_newEra\app\src\main\AndroidManifest.xml:19:9-35
+45        android:testOnly="true"
+46        android:theme="@style/Theme.SHESECURE10" >
+46-->D:\2-2\Sadlab\SheSecure\SheSecure_newEra\app\src\main\AndroidManifest.xml:20:9-49
+47        <activity
+47-->D:\2-2\Sadlab\SheSecure\SheSecure_newEra\app\src\main\AndroidManifest.xml:22:9-26:56
+48            android:name="com.example.shesecure10.VirtualActivity"
+48-->D:\2-2\Sadlab\SheSecure\SheSecure_newEra\app\src\main\AndroidManifest.xml:23:13-44
+49            android:exported="false"
+49-->D:\2-2\Sadlab\SheSecure\SheSecure_newEra\app\src\main\AndroidManifest.xml:24:13-37
+50            android:label="@string/title_activity_virtual"
+50-->D:\2-2\Sadlab\SheSecure\SheSecure_newEra\app\src\main\AndroidManifest.xml:25:13-59
+51            android:theme="@style/Theme.SHESECURE10" />
+51-->D:\2-2\Sadlab\SheSecure\SheSecure_newEra\app\src\main\AndroidManifest.xml:26:13-53
+52        <activity
+52-->D:\2-2\Sadlab\SheSecure\SheSecure_newEra\app\src\main\AndroidManifest.xml:27:9-29:40
+53            android:name="com.example.shesecure10.HomeActivity"
+53-->D:\2-2\Sadlab\SheSecure\SheSecure_newEra\app\src\main\AndroidManifest.xml:28:13-41
+54            android:exported="false" />
+54-->D:\2-2\Sadlab\SheSecure\SheSecure_newEra\app\src\main\AndroidManifest.xml:29:13-37
+55        <activity
+55-->D:\2-2\Sadlab\SheSecure\SheSecure_newEra\app\src\main\AndroidManifest.xml:30:9-32:40
+56            android:name="com.example.shesecure10.RegisterActivity"
+56-->D:\2-2\Sadlab\SheSecure\SheSecure_newEra\app\src\main\AndroidManifest.xml:31:13-45
+57            android:exported="false" />
+57-->D:\2-2\Sadlab\SheSecure\SheSecure_newEra\app\src\main\AndroidManifest.xml:32:13-37
+58        <activity
+58-->D:\2-2\Sadlab\SheSecure\SheSecure_newEra\app\src\main\AndroidManifest.xml:33:9-41:20
+59            android:name="com.example.shesecure10.LoginActivity"
+59-->D:\2-2\Sadlab\SheSecure\SheSecure_newEra\app\src\main\AndroidManifest.xml:34:13-42
+60            android:exported="true" >
+60-->D:\2-2\Sadlab\SheSecure\SheSecure_newEra\app\src\main\AndroidManifest.xml:35:13-36
+61            <intent-filter>
+61-->D:\2-2\Sadlab\SheSecure\SheSecure_newEra\app\src\main\AndroidManifest.xml:36:13-40:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->D:\2-2\Sadlab\SheSecure\SheSecure_newEra\app\src\main\AndroidManifest.xml:37:17-69
+62-->D:\2-2\Sadlab\SheSecure\SheSecure_newEra\app\src\main\AndroidManifest.xml:37:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->D:\2-2\Sadlab\SheSecure\SheSecure_newEra\app\src\main\AndroidManifest.xml:39:17-77
+64-->D:\2-2\Sadlab\SheSecure\SheSecure_newEra\app\src\main\AndroidManifest.xml:39:27-74
+65            </intent-filter>
+66        </activity>
+67        <activity
+67-->D:\2-2\Sadlab\SheSecure\SheSecure_newEra\app\src\main\AndroidManifest.xml:43:9-45:40
+68            android:name="com.example.shesecure10.MapActivity"
+68-->D:\2-2\Sadlab\SheSecure\SheSecure_newEra\app\src\main\AndroidManifest.xml:44:13-40
+69            android:exported="false" />
+69-->D:\2-2\Sadlab\SheSecure\SheSecure_newEra\app\src\main\AndroidManifest.xml:45:13-37
+70
+71        <provider
+71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Hp\.gradle\caches\transforms-4\8f0e4acb0e97be1beea0913766cd78bd\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+72            android:name="androidx.startup.InitializationProvider"
+72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Hp\.gradle\caches\transforms-4\8f0e4acb0e97be1beea0913766cd78bd\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+73            android:authorities="com.example.shesecure10.androidx-startup"
+73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Hp\.gradle\caches\transforms-4\8f0e4acb0e97be1beea0913766cd78bd\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+74            android:exported="false" >
+74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Hp\.gradle\caches\transforms-4\8f0e4acb0e97be1beea0913766cd78bd\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+75            <meta-data
+75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Hp\.gradle\caches\transforms-4\8f0e4acb0e97be1beea0913766cd78bd\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+76                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+76-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Hp\.gradle\caches\transforms-4\8f0e4acb0e97be1beea0913766cd78bd\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+77                android:value="androidx.startup" />
+77-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Hp\.gradle\caches\transforms-4\8f0e4acb0e97be1beea0913766cd78bd\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+78            <meta-data
+78-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Hp\.gradle\caches\transforms-4\f2877ff4a1b2f537c17ec3dbca73b61e\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+79                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+79-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Hp\.gradle\caches\transforms-4\f2877ff4a1b2f537c17ec3dbca73b61e\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+80                android:value="androidx.startup" />
+80-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Hp\.gradle\caches\transforms-4\f2877ff4a1b2f537c17ec3dbca73b61e\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+81            <meta-data
+81-->[com.mapbox.maps:android-core:11.3.2] C:\Users\Hp\.gradle\caches\transforms-4\a26990003cbf1ab86865f351df8d3304\transformed\android-core-11.3.2\AndroidManifest.xml:27:13-29:52
+82                android:name="com.mapbox.maps.loader.MapboxMapsInitializer"
+82-->[com.mapbox.maps:android-core:11.3.2] C:\Users\Hp\.gradle\caches\transforms-4\a26990003cbf1ab86865f351df8d3304\transformed\android-core-11.3.2\AndroidManifest.xml:28:17-76
+83                android:value="androidx.startup" /> <!-- This entry makes MapboxSDKCommonInitializer discoverable. -->
+83-->[com.mapbox.maps:android-core:11.3.2] C:\Users\Hp\.gradle\caches\transforms-4\a26990003cbf1ab86865f351df8d3304\transformed\android-core-11.3.2\AndroidManifest.xml:29:17-49
+84            <meta-data
+84-->[com.mapbox.common:common:24.3.1] C:\Users\Hp\.gradle\caches\transforms-4\8c9013eb690666ba75a7d4ceeae21f6c\transformed\common-24.3.1\AndroidManifest.xml:19:13-21:52
+85                android:name="com.mapbox.common.MapboxSDKCommonInitializer"
+85-->[com.mapbox.common:common:24.3.1] C:\Users\Hp\.gradle\caches\transforms-4\8c9013eb690666ba75a7d4ceeae21f6c\transformed\common-24.3.1\AndroidManifest.xml:20:17-76
+86                android:value="androidx.startup" />
+86-->[com.mapbox.common:common:24.3.1] C:\Users\Hp\.gradle\caches\transforms-4\8c9013eb690666ba75a7d4ceeae21f6c\transformed\common-24.3.1\AndroidManifest.xml:21:17-49
+87            <meta-data
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hp\.gradle\caches\transforms-4\6e6fc08424411119d98bc4804702b4f6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+88                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hp\.gradle\caches\transforms-4\6e6fc08424411119d98bc4804702b4f6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+89                android:value="androidx.startup" />
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hp\.gradle\caches\transforms-4\6e6fc08424411119d98bc4804702b4f6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+90        </provider>
+91
+92        <uses-library
+92-->[androidx.window:window:1.0.0] C:\Users\Hp\.gradle\caches\transforms-4\596c7619fd8128ab43ad2bdce4ef3e85\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+93            android:name="androidx.window.extensions"
+93-->[androidx.window:window:1.0.0] C:\Users\Hp\.gradle\caches\transforms-4\596c7619fd8128ab43ad2bdce4ef3e85\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+94            android:required="false" />
+94-->[androidx.window:window:1.0.0] C:\Users\Hp\.gradle\caches\transforms-4\596c7619fd8128ab43ad2bdce4ef3e85\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+95        <uses-library
+95-->[androidx.window:window:1.0.0] C:\Users\Hp\.gradle\caches\transforms-4\596c7619fd8128ab43ad2bdce4ef3e85\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+96            android:name="androidx.window.sidecar"
+96-->[androidx.window:window:1.0.0] C:\Users\Hp\.gradle\caches\transforms-4\596c7619fd8128ab43ad2bdce4ef3e85\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+97            android:required="false" />
+97-->[androidx.window:window:1.0.0] C:\Users\Hp\.gradle\caches\transforms-4\596c7619fd8128ab43ad2bdce4ef3e85\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+98
+99        <receiver
+99-->[com.mapbox.common:common:24.3.1] C:\Users\Hp\.gradle\caches\transforms-4\8c9013eb690666ba75a7d4ceeae21f6c\transformed\common-24.3.1\AndroidManifest.xml:24:9-31:20
+100            android:name="com.mapbox.common.location.LocationUpdatesReceiver"
+100-->[com.mapbox.common:common:24.3.1] C:\Users\Hp\.gradle\caches\transforms-4\8c9013eb690666ba75a7d4ceeae21f6c\transformed\common-24.3.1\AndroidManifest.xml:25:13-78
+101            android:enabled="true"
+101-->[com.mapbox.common:common:24.3.1] C:\Users\Hp\.gradle\caches\transforms-4\8c9013eb690666ba75a7d4ceeae21f6c\transformed\common-24.3.1\AndroidManifest.xml:26:13-35
+102            android:exported="false" >
+102-->[com.mapbox.common:common:24.3.1] C:\Users\Hp\.gradle\caches\transforms-4\8c9013eb690666ba75a7d4ceeae21f6c\transformed\common-24.3.1\AndroidManifest.xml:27:13-37
+103            <intent-filter>
+103-->[com.mapbox.common:common:24.3.1] C:\Users\Hp\.gradle\caches\transforms-4\8c9013eb690666ba75a7d4ceeae21f6c\transformed\common-24.3.1\AndroidManifest.xml:28:13-30:29
+104                <action android:name="com.mapbox.common.location.LocationUpdatesReceiver.ACTION_PROCESS_LOCATION_UPDATES" />
+104-->[com.mapbox.common:common:24.3.1] C:\Users\Hp\.gradle\caches\transforms-4\8c9013eb690666ba75a7d4ceeae21f6c\transformed\common-24.3.1\AndroidManifest.xml:29:17-125
+104-->[com.mapbox.common:common:24.3.1] C:\Users\Hp\.gradle\caches\transforms-4\8c9013eb690666ba75a7d4ceeae21f6c\transformed\common-24.3.1\AndroidManifest.xml:29:25-122
+105            </intent-filter>
+106        </receiver>
+107
+108        <service
+108-->[com.mapbox.common:common:24.3.1] C:\Users\Hp\.gradle\caches\transforms-4\8c9013eb690666ba75a7d4ceeae21f6c\transformed\common-24.3.1\AndroidManifest.xml:33:9-35:40
+109            android:name="com.mapbox.common.LifecycleService"
+109-->[com.mapbox.common:common:24.3.1] C:\Users\Hp\.gradle\caches\transforms-4\8c9013eb690666ba75a7d4ceeae21f6c\transformed\common-24.3.1\AndroidManifest.xml:34:13-62
+110            android:exported="false" />
+110-->[com.mapbox.common:common:24.3.1] C:\Users\Hp\.gradle\caches\transforms-4\8c9013eb690666ba75a7d4ceeae21f6c\transformed\common-24.3.1\AndroidManifest.xml:35:13-37
+111
+112        <receiver
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hp\.gradle\caches\transforms-4\6e6fc08424411119d98bc4804702b4f6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+113            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hp\.gradle\caches\transforms-4\6e6fc08424411119d98bc4804702b4f6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+114            android:directBootAware="false"
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hp\.gradle\caches\transforms-4\6e6fc08424411119d98bc4804702b4f6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+115            android:enabled="true"
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hp\.gradle\caches\transforms-4\6e6fc08424411119d98bc4804702b4f6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+116            android:exported="true"
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hp\.gradle\caches\transforms-4\6e6fc08424411119d98bc4804702b4f6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+117            android:permission="android.permission.DUMP" >
+117-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hp\.gradle\caches\transforms-4\6e6fc08424411119d98bc4804702b4f6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+118            <intent-filter>
+118-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hp\.gradle\caches\transforms-4\6e6fc08424411119d98bc4804702b4f6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+119                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+119-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hp\.gradle\caches\transforms-4\6e6fc08424411119d98bc4804702b4f6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+119-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hp\.gradle\caches\transforms-4\6e6fc08424411119d98bc4804702b4f6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+120            </intent-filter>
+121            <intent-filter>
+121-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hp\.gradle\caches\transforms-4\6e6fc08424411119d98bc4804702b4f6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+122                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+122-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hp\.gradle\caches\transforms-4\6e6fc08424411119d98bc4804702b4f6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+122-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hp\.gradle\caches\transforms-4\6e6fc08424411119d98bc4804702b4f6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+123            </intent-filter>
+124            <intent-filter>
+124-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hp\.gradle\caches\transforms-4\6e6fc08424411119d98bc4804702b4f6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+125                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+125-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hp\.gradle\caches\transforms-4\6e6fc08424411119d98bc4804702b4f6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+125-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hp\.gradle\caches\transforms-4\6e6fc08424411119d98bc4804702b4f6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+126            </intent-filter>
+127            <intent-filter>
+127-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hp\.gradle\caches\transforms-4\6e6fc08424411119d98bc4804702b4f6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+128                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+128-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hp\.gradle\caches\transforms-4\6e6fc08424411119d98bc4804702b4f6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+128-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Hp\.gradle\caches\transforms-4\6e6fc08424411119d98bc4804702b4f6\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+129            </intent-filter>
+130        </receiver>
+131    </application>
+132
+133</manifest>

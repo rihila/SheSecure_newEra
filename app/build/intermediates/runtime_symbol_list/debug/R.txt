@@ -3285,6 +3285,8 @@ int id action_text 0x7f080047
 int id actions 0x7f080048
 int id activity_chooser_view_content 0x7f080049
 int id add 0x7f08004a
+int id addButton 0x7f080241
+int id addEmailOption 0x7f080242
 int id adjust_height 0x7f08004b
 int id adjust_width 0x7f08004c
 int id alert 0x7f08004d
@@ -3299,6 +3301,7 @@ int id animateToStart 0x7f080055
 int id antiClockwise 0x7f080056
 int id anticipate 0x7f080057
 int id arc 0x7f080058
+int id articlesCard 0x7f080243
 int id asConfigured 0x7f080059
 int id async 0x7f08005a
 int id auto 0x7f08005b
@@ -3404,6 +3407,7 @@ int id easeInOut 0x7f0800be
 int id easeOut 0x7f0800bf
 int id east 0x7f0800c0
 int id edge 0x7f0800c1
+int id editPersonalInfoOption 0x7f080244
 int id editTextTextEmailAddress 0x7f0800c2
 int id editTextTextEmailAddressreg 0x7f0800c3
 int id editTextTextPassword 0x7f0800c4
@@ -3413,6 +3417,7 @@ int id editTextTextreg3 0x7f0800c7
 int id edit_query 0x7f0800c8
 int id edit_text_id 0x7f0800c9
 int id elastic 0x7f0800ca
+int id emailEditText 0x7f080245
 int id embed 0x7f0800cb
 int id end 0x7f0800cc
 int id endToStart 0x7f0800cd
@@ -3473,6 +3478,7 @@ int id imageView5 0x7f080103
 int id imageView6 0x7f080104
 int id imageViewreg 0x7f080105
 int id immediateStop 0x7f080106
+int id immediateTipsCard 0x7f080246
 int id included 0x7f080107
 int id indeterminate 0x7f080108
 int id info 0x7f080109
@@ -3667,6 +3673,7 @@ int id sharedValueSet 0x7f0801c5
 int id sharedValueUnset 0x7f0801c6
 int id shortcut 0x7f0801c7
 int id showCustom 0x7f0801c8
+int id showEmergencyEmailOption 0x7f080247
 int id showHome 0x7f0801c9
 int id showTitle 0x7f0801ca
 int id sin 0x7f0801cb
@@ -3768,6 +3775,7 @@ int id unlabeled 0x7f08022a
 int id up 0x7f08022b
 int id useLogo 0x7f08022c
 int id vertical_only 0x7f08022d
+int id videosCard 0x7f080248
 int id view_offset_helper 0x7f08022e
 int id view_transition 0x7f08022f
 int id view_tree_lifecycle_owner 0x7f080230
@@ -3903,10 +3911,18 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0b0018
 int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
+int layout activity_add_emergency_email 0x7f0b0076
 int layout activity_home 0x7f0b001c
+int layout activity_immediatetips 0x7f0b0077
+int layout activity_immediatetipss 0x7f0b007d
 int layout activity_login 0x7f0b001d
 int layout activity_main 0x7f0b001e
 int layout activity_register 0x7f0b001f
+int layout activity_settings 0x7f0b0078
+int layout activity_sosbuttonactivity 0x7f0b0079
+int layout activity_sosdatabase_helper 0x7f0b007a
+int layout activity_tutorial 0x7f0b007b
+int layout activity_tutorial_activitynew 0x7f0b007c
 int layout activity_virtual 0x7f0b0020
 int layout browser_actions_context_menu_page 0x7f0b0021
 int layout browser_actions_context_menu_row 0x7f0b0022

@@ -3286,6 +3286,8 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addButton
+id addEmailOption
 id adjust_height
 id adjust_width
 id alert
@@ -3300,6 +3302,7 @@ id animateToStart
 id antiClockwise
 id anticipate
 id arc
+id articlesCard
 id asConfigured
 id async
 id auto
@@ -3405,6 +3408,7 @@ id easeInOut
 id easeOut
 id east
 id edge
+id editPersonalInfoOption
 id editTextTextEmailAddress
 id editTextTextEmailAddressreg
 id editTextTextPassword
@@ -3414,6 +3418,7 @@ id editTextTextreg3
 id edit_query
 id edit_text_id
 id elastic
+id emailEditText
 id embed
 id end
 id endToStart
@@ -3474,6 +3479,7 @@ id imageView5
 id imageView6
 id imageViewreg
 id immediateStop
+id immediateTipsCard
 id included
 id indeterminate
 id info
@@ -3668,6 +3674,7 @@ id sharedValueSet
 id sharedValueUnset
 id shortcut
 id showCustom
+id showEmergencyEmailOption
 id showHome
 id showTitle
 id sin
@@ -3769,6 +3776,7 @@ id unlabeled
 id up
 id useLogo
 id vertical_only
+id videosCard
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
@@ -3904,10 +3912,18 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_add_emergency_email
 layout activity_home
+layout activity_immediatetips
+layout activity_immediatetipss
 layout activity_login
 layout activity_main
 layout activity_register
+layout activity_settings
+layout activity_sosbuttonactivity
+layout activity_sosdatabase_helper
+layout activity_tutorial
+layout activity_tutorial_activitynew
 layout activity_virtual
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row

@@ -35,19 +35,18 @@
         android:testOnly="true"
         android:theme="@style/Theme.SHESECURE10" >
         <activity
+            android:name="com.example.shesecure10.Immediatetipss"
+            android:exported="false" />
+        <activity
+            android:name="com.example.shesecure10.TutorialActivitynew"
+            android:exported="false" />
+        <activity
             android:name="com.example.shesecure10.VirtualActivity"
             android:exported="false"
             android:label="@string/title_activity_virtual"
-            android:theme="@style/Theme.SHESECURE10" >
-        </activity>
+            android:theme="@style/Theme.SHESECURE10" />
         <activity
             android:name="com.example.shesecure10.HomeActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.example.shesecure10.RegisterActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.example.shesecure10.LoginActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -55,6 +54,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.shesecure10.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.shesecure10.LoginActivity"
+            android:exported="false" />
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"

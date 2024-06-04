@@ -1,10 +1,10 @@
-#Mon Jun 03 19:15:07 BDT 2024
-base.0=D\:\\4th sem\\SAD LAB\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=D\:\\4th sem\\SAD LAB\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=D\:\\4th sem\\SAD LAB\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
-base.3=D\:\\4th sem\\SAD LAB\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
-base.4=D\:\\4th sem\\SAD LAB\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
-base.5=D\:\\4th sem\\SAD LAB\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+#Tue Jun 04 07:44:20 BDT 2024
+base.0=D\:\\2-2\\Sadlab\\new\\SheSecure_newEra\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=D\:\\2-2\\Sadlab\\new\\SheSecure_newEra\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=D\:\\2-2\\Sadlab\\new\\SheSecure_newEra\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
+base.3=D\:\\2-2\\Sadlab\\new\\SheSecure_newEra\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
+base.4=D\:\\2-2\\Sadlab\\new\\SheSecure_newEra\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
+base.5=D\:\\2-2\\Sadlab\\new\\SheSecure_newEra\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=10/classes.dex

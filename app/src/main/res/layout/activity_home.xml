@@ -118,6 +118,7 @@
 
 
             <RelativeLayout
+                android:id="@+id/safety_route"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
@@ -199,6 +200,7 @@
 
 
             <RelativeLayout
+                android:id="@+id/high_danger"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
@@ -212,8 +214,8 @@
                     android:layout_alignParentEnd="true"
 
                     android:layout_marginLeft="28dp"
-                    android:layout_marginTop="1dp"
-                    android:layout_marginEnd="-11dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="0dp"
                     android:padding="10dp"
                     android:text="High Danger Area Alert"
                     android:textColor="@color/transgrey"
@@ -269,8 +271,8 @@
                     android:layout_alignParentEnd="true"
                     android:layout_centerHorizontal="true"
 
-                    android:layout_marginTop="15dp"
-                    android:layout_marginEnd="3dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginEnd="10dp"
                     android:text="Self-Defense Tutorial"
                     android:textColor="@color/transgrey"
                     android:textSize="17dp"
@@ -285,7 +287,7 @@
                     android:layout_alignParentTop="true"
                     android:layout_alignParentEnd="true"
                     android:layout_marginTop="70dp"
-                    android:layout_marginEnd="17dp"
+                    android:layout_marginEnd="20dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:srcCompat="@drawable/tutorial" />
@@ -308,12 +310,12 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/homebg"
-        app:layout_constraintVertical_bias="1.0"></LinearLayout>
+        app:layout_constraintVertical_bias="1.0" />
 
     <LinearLayout
         android:id="@+id/linearLayout4"
-        android:layout_width="409dp"
-        android:layout_height="35dp"
+        android:layout_width="411dp"
+        android:layout_height="85dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -322,10 +324,16 @@
         app:layout_constraintTop_toTopOf="@+id/homebg"
         app:layout_constraintVertical_bias="0.0">
 
+        <ImageView
+            android:id="@+id/ThreeLine"
+            android:layout_width="53dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="16dp"
+            app:srcCompat="@drawable/baseline_density_medium_24" />
     </LinearLayout>
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/SOS"
         android:layout_width="102dp"
         android:layout_height="116dp"
         android:layout_marginTop="32dp"
@@ -333,7 +341,8 @@
         app:layout_constraintHorizontal_bias="0.904"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/sos" />
+        app:srcCompat="@drawable/sos"
+        tools:ignore="DuplicateIds" />
 
     <ImageView
         android:id="@+id/imageView13"
@@ -359,7 +368,7 @@
         app:srcCompat="@drawable/settingsbarc" />
 
     <ImageView
-        android:id="@+id/imageView16"
+        android:id="@+id/ShowMap"
         android:layout_width="77dp"
         android:layout_height="65dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -380,7 +389,7 @@
         android:textSize="35sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
-        app:layout_constraintEnd_toStartOf="@+id/imageView6"
+        app:layout_constraintEnd_toStartOf="@+id/SOS"
         app:layout_constraintHorizontal_bias="0.467"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout4"

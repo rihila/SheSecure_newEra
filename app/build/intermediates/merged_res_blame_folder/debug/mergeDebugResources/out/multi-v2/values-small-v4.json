@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.shesecure10.app-mergeDebugResources-50:/values-small-v4/values-small-v4.xml",
+            "outputFile": "com.example.shesecure10.app-mergeDebugResources-54:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Hp\\.gradle\\caches\\transforms-4\\d7f4ca345df148ef8d0c9807c8e2d409\\transformed\\material-1.11.0\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\Hp\\.gradle\\caches\\transforms-4\\bf124118ed490867b5d58477d00ccee9\\transformed\\material-1.11.0\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

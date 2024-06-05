@@ -6,6 +6,7 @@
     <dimen name="fab_margin">16dp</dimen>
     <string name="app_name">SHESECURE1.0</string>
     <string name="first_fragment_label">First Fragment</string>
+    <string name="google_maps_key">AIzaSyD4TwHpUW4XhTHE228h2lydhOKKF3N5adM</string>
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
         volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
@@ -46,6 +47,7 @@
     <string name="next">Next</string>
     <string name="previous">Previous</string>
     <string name="second_fragment_label">Second Fragment</string>
+    <string name="title_activity_maps">MapsActivity</string>
     <string name="title_activity_virtual">VirtualActivity</string>
     <style name="Base.Theme.SHESECURE10" parent="Theme.Material3.DayNight.NoActionBar">
         

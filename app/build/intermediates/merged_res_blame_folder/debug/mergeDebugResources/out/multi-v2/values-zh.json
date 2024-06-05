@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.shesecure10.app-mergeDebugResources-50:/values-zh/values-zh.xml",
+            "outputFile": "com.example.shesecure10.app-mergeDebugResources-54:/values-zh/values-zh.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Hp\\.gradle\\caches\\transforms-4\\db9d1fabf5be6d4b3a29bda9446bb52f\\transformed\\maps-attribution-11.3.1\\res\\values-zh\\values-zh.xml",
+                    "source": "C:\\Users\\Hp\\.gradle\\caches\\transforms-4\\dfee9459f136ec1c5cf54adb190186ee\\transformed\\maps-logo-11.3.1\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "133",
+                        "endOffsets": "184"
+                    },
+                    "to": {
+                        "startLines": "14",
+                        "startColumns": "4",
+                        "startOffsets": "1029",
+                        "endColumns": "133",
+                        "endOffsets": "1158"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Hp\\.gradle\\caches\\transforms-4\\41b4200fa1af80ab5a698f4cc6cb6b66\\transformed\\maps-attribution-11.3.1\\res\\values-zh\\values-zh.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -21,24 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Hp\\.gradle\\caches\\transforms-4\\9e144288341a58d99c110bc32d00ed3e\\transformed\\android-11.3.1\\res\\values-zh\\values-zh.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,117,179",
-                        "endColumns": "61,61,62",
-                        "endOffsets": "112,174,237"
-                    },
-                    "to": {
-                        "startLines": "10,11,12",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "680,742,804",
-                        "endColumns": "61,61,62",
-                        "endOffsets": "737,799,862"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Hp\\.gradle\\caches\\transforms-4\\c1197cb56860261eed783d8b93421a29\\transformed\\maps-compass-11.3.1\\res\\values-zh\\values-zh.xml",
+                    "source": "C:\\Users\\Hp\\.gradle\\caches\\transforms-4\\dd168c716cb766ec9e50cf68c86cacf6\\transformed\\maps-compass-11.3.1\\res\\values-zh\\values-zh.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -55,20 +55,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Hp\\.gradle\\caches\\transforms-4\\6462b6203934a7c2254d7e77171ea573\\transformed\\maps-logo-11.3.1\\res\\values-zh\\values-zh.xml",
+                    "source": "C:\\Users\\Hp\\.gradle\\caches\\transforms-4\\4021055270446c243c830ccbed397a2b\\transformed\\android-11.3.1\\res\\values-zh\\values-zh.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "133",
-                        "endOffsets": "184"
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,117,179",
+                        "endColumns": "61,61,62",
+                        "endOffsets": "112,174,237"
                     },
                     "to": {
-                        "startLines": "14",
-                        "startColumns": "4",
-                        "startOffsets": "1029",
-                        "endColumns": "133",
-                        "endOffsets": "1158"
+                        "startLines": "10,11,12",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "680,742,804",
+                        "endColumns": "61,61,62",
+                        "endOffsets": "737,799,862"
                     }
                 }
             ]

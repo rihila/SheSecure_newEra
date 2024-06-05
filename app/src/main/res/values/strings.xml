@@ -7,7 +7,7 @@
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
-<!--    for implementing map-->
+    <!--    for implementing map-->
     <string name="mapbox_access_token" translatable="false" tools:ignore="UnusedResources">sk.eyJ1IjoiZmF0ZWVubnIiLCJhIjoiY2x3Z2hhNjZ1MDNsODJta3hienNmcjR4OSJ9.jmZIP4zZk2fG_nBayAz9LA</string>
 
 
@@ -47,6 +47,8 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="google_maps_key">AIzaSyD4TwHpUW4XhTHE228h2lydhOKKF3N5adM</string>
 
 
 </resources>

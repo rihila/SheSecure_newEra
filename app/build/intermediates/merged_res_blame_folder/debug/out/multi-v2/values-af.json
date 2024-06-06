@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.shesecure10.app-mergeDebugResources-61:/values-af/values-af.xml",
+            "outputFile": "com.example.shesecure10.app-mergeDebugResources-62:/values-af/values-af.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Hp\\.gradle\\caches\\transforms-3\\26a9f06a00f2cfd2aec32fbb1fc37d36\\transformed\\play-services-base-18.5.0\\res\\values-af\\values.xml",

@@ -3586,6 +3586,8 @@ drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable alert
+drawable amu_bubble_mask
+drawable amu_bubble_shadow
 drawable applogoin
 drawable area_alert
 drawable avd_hide_password
@@ -3633,6 +3635,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable gradient_background
 drawable home
 drawable homeb
 drawable homebarc
@@ -3870,6 +3873,7 @@ id all
 id allStates
 id all_glyphs_rasterized_locally
 id always
+id amu_text
 id androidx_window_activity_scope
 id animateToEnd
 id animateToStart
@@ -4417,9 +4421,11 @@ id view_tree_view_model_store_owner
 id virtualcompanion
 id visible
 id visible_removing_fragment_view_tag
+id webview
 id west
 id wide
 id width_and_height
+id window
 id withText
 id with_icon
 id withinBounds
@@ -4572,6 +4578,9 @@ layout activity_tutorial
 layout activity_tutorial_activitynew
 layout activity_videos
 layout activity_virtual
+layout amu_info_window
+layout amu_text_bubble
+layout amu_webview
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout chat_item
@@ -4783,6 +4792,7 @@ string m3_sys_motion_easing_linear
 string m3_sys_motion_easing_standard
 string m3_sys_motion_easing_standard_accelerate
 string m3_sys_motion_easing_standard_decelerate
+string mapbox_access_token
 string mapbox_attributionErrorNoBrowser
 string mapbox_attributionTelemetryMessage
 string mapbox_attributionTelemetryNegative
@@ -6033,6 +6043,9 @@ style Widget_MaterialComponents_Toolbar_PrimarySurface
 style Widget_MaterialComponents_Toolbar_Surface
 style Widget_MaterialComponents_Tooltip
 style Widget_Support_CoordinatorLayout
+style amu_Bubble_TextAppearance_Dark
+style amu_Bubble_TextAppearance_Light
+style amu_ClusterIcon_TextAppearance
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth

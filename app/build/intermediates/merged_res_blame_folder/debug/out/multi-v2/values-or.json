@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.shesecure10.app-mergeDebugResources-61:/values-or/values-or.xml",
+            "outputFile": "com.example.shesecure10.app-mergeDebugResources-62:/values-or/values-or.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Hp\\.gradle\\caches\\transforms-3\\fd6155583c79a1c58ef0dd1d9a0d053c\\transformed\\browser-1.4.0\\res\\values-or\\values-or.xml",

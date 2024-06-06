@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.shesecure10.app-mergeDebugResources-61:/values-ca/values-ca.xml",
+            "outputFile": "com.example.shesecure10.app-mergeDebugResources-62:/values-ca/values-ca.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Hp\\.gradle\\caches\\transforms-3\\44e90ca658084730a49a4c2416ff4d10\\transformed\\android-11.3.1\\res\\values-ca\\values-ca.xml",

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.shesecure10.app-mergeDebugResources-61:/values-zh-rCN/values-zh-rCN.xml",
+            "outputFile": "com.example.shesecure10.app-mergeDebugResources-62:/values-zh-rCN/values-zh-rCN.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Hp\\.gradle\\caches\\transforms-3\\a5aea6b774a95feebd40c2ff9c9b9433\\transformed\\places-2.6.0\\res\\values-zh-rCN\\values.xml",

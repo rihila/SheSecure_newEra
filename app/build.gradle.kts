@@ -105,6 +105,8 @@ dependencies {
     implementation ("com.mapbox.mapboxsdk:mapbox-sdk-services:7.0.0")
     implementation("com.mapbox.maps:android:11.3.1")
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
+    implementation ("com.google.maps.android:android-maps-utils:3.8.2")
+
 
 
     implementation(platform("com.google.firebase:firebase-bom:33.0.0"))
@@ -126,6 +128,7 @@ dependencies {
 
         // Required for streaming operations (to use `Publisher` from Reactive Streams)
         implementation("org.reactivestreams:reactive-streams:1.0.4")
+
     }
 }
 apply(plugin = "com.google.gms.google-services")

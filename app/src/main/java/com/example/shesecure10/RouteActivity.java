@@ -97,7 +97,7 @@ public class RouteActivity extends FragmentActivity implements OnMapReadyCallbac
             @Override
             public void onClick(View view) {
                 if (place2 != null && currentLocation != null) {
-                    new FetchURL(RouteActivity.this).execute(getUrl(currentLocation, destinationLocation, "driving"), "driving");
+                    new FetchURL(RouteActivity.this).execute(getUrl(currentLocation, destinationLocation, "walking"), "walking");
                     mMap.addMarker(place2);
                     //moving the camera in between src and destination
                     mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng((currentLocation.latitude+destinationLocation.latitude)/2 , (currentLocation.longitude+destinationLocation.longitude)/2), 12));
@@ -112,6 +112,7 @@ public class RouteActivity extends FragmentActivity implements OnMapReadyCallbac
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
+        mMap.setTrafficEnabled(true);
         Log.d("RouteActivity", "Map is ready");
 
         // Check for location permissions
@@ -163,7 +164,7 @@ public class RouteActivity extends FragmentActivity implements OnMapReadyCallbac
         // Output format
         String output = "json";
         // Building the url to the web service
-        String url = "https://maps.googleapis.com/maps/api/directions/" + output + "?" + parameters + "&key=" + getString(R.string.google_maps_key);
+        String url = "https://maps.googleapis.com/maps/api/directions/" + output + "?" + parameters + "&departure_time=now&traffic_model=pessimistic&key=" + getString(R.string.google_maps_key);
         return url;
     }
 }

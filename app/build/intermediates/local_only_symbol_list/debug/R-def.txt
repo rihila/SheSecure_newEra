@@ -16,6 +16,7 @@ drawable calendar
 drawable chat
 drawable compa
 drawable compap
+drawable gradient_background
 drawable home
 drawable homeb
 drawable homebarc
@@ -178,6 +179,7 @@ string google_crash_reporting_api_key
 string google_maps_key
 string google_storage_bucket
 string lorem_ipsum
+string mapbox_access_token
 string next
 string previous
 string project_id

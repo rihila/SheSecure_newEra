@@ -62,7 +62,7 @@ public class AddEmergencyEmailActivity extends AppCompatActivity {
                     String loggedInUsername = "username"; // Replace this with actual username
 
                     Map<String, Object> emergencymail=new HashMap<>();
-                    emergencymail.put("emergencymail_2", email);
+                    emergencymail.put("emergencymail", email);
                     db.collection("emergencyemail").document(currentUser.getEmail()).set(emergencymail).addOnCompleteListener(new OnCompleteListener<Void>() {
                         @Override
                         public void onComplete(@NonNull Task<Void> task) {

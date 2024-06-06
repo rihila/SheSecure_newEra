@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RouteActivity">
+
+    <fragment
+        android:id="@+id/autocomplete_fragment"
+        android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/white"
+        android:padding="16dp"
+        android:elevation="4dp" />
+
+    <fragment
+        android:id="@+id/map_fragment"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/find_route_button"
+        android:text="Get Direction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground" />
+</LinearLayout>
+
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:orientation="vertical"-->
+<!--    tools:context=".RouteActivity">-->
+
+
+
+
+
+
+<!--    <AutoCompleteTextView-->
+<!--        android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"-->
+<!--        android:id="@+id/destination_input"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Enter destination"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:background="@android:color/white"-->
+<!--        android:padding="16dp"-->
+<!--        android:elevation="4dp"/>-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/map_fragment"-->
+<!--        android:name="com.google.android.gms.maps.MapFragment"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_below="@+id/rvToolbar"-->
+<!--        android:layout_weight="1" />-->
+
+
+<!--    <Button-->
+<!--        android:id="@+id/find_route_button"-->
+<!--        android:text="Get Direction"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="?attr/selectableItemBackground" />-->
+<!--</LinearLayout>-->
+
+
+
+<!--&lt;!&ndash;<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"&ndash;&gt;-->
+<!--&lt;!&ndash;    xmlns:tools="http://schemas.android.com/tools"&ndash;&gt;-->
+<!--&lt;!&ndash;    android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;    android:layout_height="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;    tools:context=".MapsActivity">&ndash;&gt;-->
+
+<!--&lt;!&ndash;    <fragment&ndash;&gt;-->
+<!--&lt;!&ndash;        android:id="@+id/map_fragment"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_alignParentTop="true"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:name="com.google.android.gms.maps.SupportMapFragment"/>&ndash;&gt;-->
+
+<!--&lt;!&ndash;    <AutoCompleteTextView&ndash;&gt;-->
+<!--&lt;!&ndash;        android:id="@+id/destination_input"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:hint="Enter destination"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_alignParentTop="true"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:background="@android:color/white"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:padding="16dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:elevation="4dp"/>&ndash;&gt;-->
+
+<!--&lt;!&ndash;    <Button&ndash;&gt;-->
+<!--&lt;!&ndash;        android:id="@+id/find_route_button"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:text="Find Route"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_below="@id/destination_input"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_alignParentEnd="true"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_marginTop="8dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_marginEnd="16dp"/>&ndash;&gt;-->
+
+<!--&lt;!&ndash;</RelativeLayout>&ndash;&gt;-->

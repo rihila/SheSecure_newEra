@@ -2,7 +2,17 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Include only if your app benefits from precise location access. -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
 
     <application
         android:allowBackup="true"
@@ -13,12 +23,37 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SHESECURE10"
-        tools:targetApi="31">
+        tools:targetApi="31"
+        tools:ignore="ExtraText">
+
+
+        <meta-data android:name="com.google.android.geo.API_KEY"
+            android:value= "${MAPS_API_KEY}" />
+
+        <activity
+            android:name=".VideosActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_maps">
+        </activity>
+
         <activity
             android:name=".Immediatetipss"
             android:exported="false" />
         <activity
+            android:name=".SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddEmergencyEmailActivity"
+            android:exported="false" />
+        <activity
             android:name=".TutorialActivitynew"
+            android:exported="false" />
+        <activity
+            android:name=".SelfDefenseTipsActivity"
             android:exported="false" />
         <activity
             android:name=".VirtualActivity"
@@ -33,13 +68,26 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
         <activity
             android:name=".RegisterActivity"
             android:exported="false" />
+
+        <activity
+            android:name=".RouteActivity"
+            android:exported="false">
+        </activity>
         <activity
             android:name=".LoginActivity"
+            android:exported="false" >
+
+        </activity>
+
+        <activity
+            android:name=".MapActivity"
             android:exported="false" />
+
     </application>
 
 </manifest>

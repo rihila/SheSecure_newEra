@@ -1,54 +1,66 @@
-com.example.shesecure10.app-appcompat-1.6.1-0 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\1862e00d1ecf26ee57c1a966a6d7e274\transformed\appcompat-1.6.1\res
-com.example.shesecure10.app-navigation-ui-2.6.0-1 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\1af55fdeb42cee2ce865a8dab8571ddb\transformed\navigation-ui-2.6.0\res
-com.example.shesecure10.app-navigation-runtime-2.6.0-2 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\2030b28594058cd2ff5609275bbb3e5a\transformed\navigation-runtime-2.6.0\res
-com.example.shesecure10.app-viewpager2-1.0.0-3 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\22bdc44dbaa490403516e4c79ec887eb\transformed\viewpager2-1.0.0\res
-com.example.shesecure10.app-lifecycle-viewmodel-savedstate-2.6.1-4 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\279c01888f3f8e5d8d5f2e17a7dc3f10\transformed\lifecycle-viewmodel-savedstate-2.6.1\res
-com.example.shesecure10.app-lifecycle-runtime-ktx-2.6.1-5 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\2bfa794ae11f5742d6cefdc89227f32c\transformed\lifecycle-runtime-ktx-2.6.1\res
-com.example.shesecure10.app-constraintlayout-2.1.4-6 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\333016d9ab36f457ad39c2db7bc55284\transformed\constraintlayout-2.1.4\res
-com.example.shesecure10.app-core-runtime-2.2.0-7 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\37ee42a5582ff2eb7fa69a9930fb65d8\transformed\core-runtime-2.2.0\res
-com.example.shesecure10.app-activity-1.8.0-8 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\385ca6362a2e46bc9cbeec877bc0ec14\transformed\activity-1.8.0\res
-com.example.shesecure10.app-coordinatorlayout-1.1.0-9 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\3ed0921003b5e1b70a51b9ad2978550f\transformed\coordinatorlayout-1.1.0\res
-com.example.shesecure10.app-core-1.12.0-10 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\41499a1e199eee45227c15464ff212d1\transformed\core-1.12.0\res
-com.example.shesecure10.app-play-services-basement-18.3.0-11 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\4bfa6ebde41cf482265abd5bce78c9b9\transformed\play-services-basement-18.3.0\res
-com.example.shesecure10.app-savedstate-1.2.1-12 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\5d1544de2a3e762024b1f79aebada4e5\transformed\savedstate-1.2.1\res
-com.example.shesecure10.app-navigation-common-2.6.0-13 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\5d643c2f005056c199e15d13fd5f778b\transformed\navigation-common-2.6.0\res
-com.example.shesecure10.app-credentials-1.2.0-rc01-14 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\5f301da98a85f1cb06ae3fb78169a6de\transformed\credentials-1.2.0-rc01\res
-com.example.shesecure10.app-lifecycle-livedata-2.6.1-15 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\6032651b8bd51b88454ab7ef76385d28\transformed\lifecycle-livedata-2.6.1\res
-com.example.shesecure10.app-startup-runtime-1.1.1-16 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\6093783374f30449b58c46721f50f257\transformed\startup-runtime-1.1.1\res
-com.example.shesecure10.app-emoji2-1.2.0-17 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\6263db061d21efcc2fade0045cbbd666\transformed\emoji2-1.2.0\res
-com.example.shesecure10.app-play-services-auth-20.7.0-18 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\67548d760f02f06a1525ec5db65063af\transformed\play-services-auth-20.7.0\res
-com.example.shesecure10.app-emoji2-views-helper-1.2.0-19 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\699a78ea537d7996a76f01f4dea85170\transformed\emoji2-views-helper-1.2.0\res
-com.example.shesecure10.app-browser-1.4.0-20 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\6c7971b0b23792212c1711d2a7266e56\transformed\browser-1.4.0\res
-com.example.shesecure10.app-firebase-common-21.0.0-21 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\6cfbca986b2cf2ceb0ed2306bf8296a9\transformed\firebase-common-21.0.0\res
-com.example.shesecure10.app-navigation-fragment-2.6.0-22 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\868b35ff5fa414e7d94d4d32d1e742fc\transformed\navigation-fragment-2.6.0\res
-com.example.shesecure10.app-appcompat-resources-1.6.1-23 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\891b997f6a6905d16f3b7546ce1c06da\transformed\appcompat-resources-1.6.1\res
-com.example.shesecure10.app-cardview-1.0.0-24 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\936ddeee6926d3c13f01354140ed4062\transformed\cardview-1.0.0\res
-com.example.shesecure10.app-recyclerview-1.1.0-25 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\94600b643a8ae2b3d2f6e4e028f6a0ec\transformed\recyclerview-1.1.0\res
-com.example.shesecure10.app-annotation-experimental-1.3.0-26 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\9ed3540d49c7dab22940a1c02e88974d\transformed\annotation-experimental-1.3.0\res
-com.example.shesecure10.app-lifecycle-viewmodel-2.6.1-27 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\9f3ef57d3a770d0393f92bc56acf0ff1\transformed\lifecycle-viewmodel-2.6.1\res
-com.example.shesecure10.app-lifecycle-livedata-core-ktx-2.6.1-28 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\a9c53cd25d52aa9acc1804b83ef13257\transformed\lifecycle-livedata-core-ktx-2.6.1\res
-com.example.shesecure10.app-core-ktx-1.12.0-29 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\ab8983c9a8c252e4b243ad833be176e7\transformed\core-ktx-1.12.0\res
-com.example.shesecure10.app-savedstate-ktx-1.2.1-30 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\ad10fca1b28e120d5935d92d0a6a9a41\transformed\savedstate-ktx-1.2.1\res
-com.example.shesecure10.app-lifecycle-process-2.6.1-31 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\b10009650f915d6f378a4fb8d9db8ee9\transformed\lifecycle-process-2.6.1\res
-com.example.shesecure10.app-transition-1.4.1-32 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\b68c434de6ac7573ab44c77e90dd1c7f\transformed\transition-1.4.1\res
-com.example.shesecure10.app-window-1.0.0-33 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\b7a9a22b92de24d01e7b34e6e966e88d\transformed\window-1.0.0\res
-com.example.shesecure10.app-activity-ktx-1.8.0-34 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\bd7cc7b5805d6d5b37bc8a26f4a4aebc\transformed\activity-ktx-1.8.0\res
-com.example.shesecure10.app-fragment-ktx-1.6.0-35 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\c9997cb163410ee0c8874a672558c832\transformed\fragment-ktx-1.6.0\res
-com.example.shesecure10.app-slidingpanelayout-1.2.0-36 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\caa7c681b629f22945e0e98e295ad264\transformed\slidingpanelayout-1.2.0\res
-com.example.shesecure10.app-drawerlayout-1.1.1-37 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\cb5652876b84ff6c7cc5692f1def8eb0\transformed\drawerlayout-1.1.1\res
-com.example.shesecure10.app-material-1.11.0-38 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\d465cb73daca51564ea7fa0a76321e70\transformed\material-1.11.0\res
-com.example.shesecure10.app-lifecycle-livedata-core-2.6.1-39 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\dad95d89fcba4e729ece8a3dc223a169\transformed\lifecycle-livedata-core-2.6.1\res
-com.example.shesecure10.app-fragment-1.6.0-40 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\e46934ed97f4cca883818db568d2a2e8\transformed\fragment-1.6.0\res
-com.example.shesecure10.app-credentials-play-services-auth-1.2.0-rc01-41 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\e650ffe2a3273a4bfd710e51d2adaa07\transformed\credentials-play-services-auth-1.2.0-rc01\res
-com.example.shesecure10.app-profileinstaller-1.3.0-42 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\ea4683a70fa3ed0039e26b8ef4a2f6d7\transformed\profileinstaller-1.3.0\res
-com.example.shesecure10.app-play-services-base-18.1.0-43 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\edbe3992402d27772fd85d40fc94140d\transformed\play-services-base-18.1.0\res
-com.example.shesecure10.app-lifecycle-runtime-2.6.1-44 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\f2ca8899f216990f3ede3c02f837bf60\transformed\lifecycle-runtime-2.6.1\res
-com.example.shesecure10.app-lifecycle-viewmodel-ktx-2.6.1-45 C:\Users\Rihila Sumayya\.gradle\caches\transforms-3\f98ae7f0a8873ed857a869f07bf1a67c\transformed\lifecycle-viewmodel-ktx-2.6.1\res
-com.example.shesecure10.app-pngs-46 D:\4th sem\SAD LAB\app\build\generated\res\pngs\debug
-com.example.shesecure10.app-res-47 D:\4th sem\SAD LAB\app\build\generated\res\processDebugGoogleServices
-com.example.shesecure10.app-resValues-48 D:\4th sem\SAD LAB\app\build\generated\res\resValues\debug
-com.example.shesecure10.app-packageDebugResources-49 D:\4th sem\SAD LAB\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.shesecure10.app-packageDebugResources-50 D:\4th sem\SAD LAB\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.shesecure10.app-merged_res-51 D:\4th sem\SAD LAB\app\build\intermediates\merged_res\debug
-com.example.shesecure10.app-debug-52 D:\4th sem\SAD LAB\app\src\debug\res
-com.example.shesecure10.app-main-53 D:\4th sem\SAD LAB\app\src\main\res
+com.example.shesecure10.app-window-1.0.0-0 C:\Users\Hp\.gradle\caches\transforms-3\00e0a0a1c8d45326abb22bb45f490804\transformed\window-1.0.0\res
+com.example.shesecure10.app-maps-locationcomponent-11.3.1-1 C:\Users\Hp\.gradle\caches\transforms-3\0926b2af7eda15b98c5a37e17463ced7\transformed\maps-locationcomponent-11.3.1\res
+com.example.shesecure10.app-recyclerview-1.1.0-2 C:\Users\Hp\.gradle\caches\transforms-3\106e680cac269fc5cf80e086a7d0247f\transformed\recyclerview-1.1.0\res
+com.example.shesecure10.app-savedstate-ktx-1.2.1-3 C:\Users\Hp\.gradle\caches\transforms-3\1107c8634fcc23f7ff6dc7ea3f954702\transformed\savedstate-ktx-1.2.1\res
+com.example.shesecure10.app-viewpager2-1.0.0-4 C:\Users\Hp\.gradle\caches\transforms-3\130aa8f52d2114c665df998fa522613b\transformed\viewpager2-1.0.0\res
+com.example.shesecure10.app-maps-logo-11.3.1-5 C:\Users\Hp\.gradle\caches\transforms-3\174c776db3eaae0cfb95397b74a66cb5\transformed\maps-logo-11.3.1\res
+com.example.shesecure10.app-annotation-experimental-1.3.0-6 C:\Users\Hp\.gradle\caches\transforms-3\1b356d15278a3a118aa936f50673245c\transformed\annotation-experimental-1.3.0\res
+com.example.shesecure10.app-core-runtime-2.2.0-7 C:\Users\Hp\.gradle\caches\transforms-3\1d910e944276e1d161035b81d83ff4f2\transformed\core-runtime-2.2.0\res
+com.example.shesecure10.app-play-services-base-18.5.0-8 C:\Users\Hp\.gradle\caches\transforms-3\26a9f06a00f2cfd2aec32fbb1fc37d36\transformed\play-services-base-18.5.0\res
+com.example.shesecure10.app-fragment-1.6.0-9 C:\Users\Hp\.gradle\caches\transforms-3\2a45a478f9df5340d4641ab14445ae6c\transformed\fragment-1.6.0\res
+com.example.shesecure10.app-maps-gestures-11.3.1-10 C:\Users\Hp\.gradle\caches\transforms-3\2e2019ce25d7f10ca8cf13c1da171049\transformed\maps-gestures-11.3.1\res
+com.example.shesecure10.app-navigation-fragment-2.6.0-11 C:\Users\Hp\.gradle\caches\transforms-3\3449af89db0cb259627b85825606bc8e\transformed\navigation-fragment-2.6.0\res
+com.example.shesecure10.app-activity-ktx-1.8.0-12 C:\Users\Hp\.gradle\caches\transforms-3\37173b92fd6cdd7346fbe9551d6608d4\transformed\activity-ktx-1.8.0\res
+com.example.shesecure10.app-lifecycle-runtime-ktx-2.6.1-13 C:\Users\Hp\.gradle\caches\transforms-3\373de5e6374dd60f693b1c0ca1ec576b\transformed\lifecycle-runtime-ktx-2.6.1\res
+com.example.shesecure10.app-navigation-common-2.6.0-14 C:\Users\Hp\.gradle\caches\transforms-3\3fbc43d2c3807b895f90a07d3314980a\transformed\navigation-common-2.6.0\res
+com.example.shesecure10.app-transition-1.4.1-15 C:\Users\Hp\.gradle\caches\transforms-3\4461549d783e0956ea64c7d803da268a\transformed\transition-1.4.1\res
+com.example.shesecure10.app-android-11.3.1-16 C:\Users\Hp\.gradle\caches\transforms-3\44e90ca658084730a49a4c2416ff4d10\transformed\android-11.3.1\res
+com.example.shesecure10.app-core-12.1.0-17 C:\Users\Hp\.gradle\caches\transforms-3\45f11a7868e20d05a73a7cbee0338587\transformed\core-12.1.0\res
+com.example.shesecure10.app-mapbox-android-gestures-0.8.0-18 C:\Users\Hp\.gradle\caches\transforms-3\4c972f28102a74bf8d9382192408fd2a\transformed\mapbox-android-gestures-0.8.0\res
+com.example.shesecure10.app-lifecycle-runtime-2.6.1-19 C:\Users\Hp\.gradle\caches\transforms-3\4e5ef71dee4157a7eb767633fb031616\transformed\lifecycle-runtime-2.6.1\res
+com.example.shesecure10.app-slidingpanelayout-1.2.0-20 C:\Users\Hp\.gradle\caches\transforms-3\4f2102fac6728dd86ef1a0dee4bb7651\transformed\slidingpanelayout-1.2.0\res
+com.example.shesecure10.app-play-services-basement-18.4.0-21 C:\Users\Hp\.gradle\caches\transforms-3\51e3ad68a5998a17cf7263172f417d06\transformed\play-services-basement-18.4.0\res
+com.example.shesecure10.app-common-24.3.1-22 C:\Users\Hp\.gradle\caches\transforms-3\538532e4bb337542cb353edeca33e1f7\transformed\common-24.3.1\res
+com.example.shesecure10.app-firebase-common-21.0.0-23 C:\Users\Hp\.gradle\caches\transforms-3\63b69bdcac16cac01a7867d0ea207db8\transformed\firebase-common-21.0.0\res
+com.example.shesecure10.app-core-ktx-1.12.0-24 C:\Users\Hp\.gradle\caches\transforms-3\66716ad3d90b2d4a5cbda1b92266cc50\transformed\core-ktx-1.12.0\res
+com.example.shesecure10.app-lifecycle-viewmodel-savedstate-2.6.1-25 C:\Users\Hp\.gradle\caches\transforms-3\68c039943d2cd0cfa5ad0cabcd3717ca\transformed\lifecycle-viewmodel-savedstate-2.6.1\res
+com.example.shesecure10.app-material-1.11.0-26 C:\Users\Hp\.gradle\caches\transforms-3\6be24f63abcdb3485f2948270de7ee3b\transformed\material-1.11.0\res
+com.example.shesecure10.app-lifecycle-viewmodel-ktx-2.6.1-27 C:\Users\Hp\.gradle\caches\transforms-3\6cd961234dff8e6455108be04fe56e0c\transformed\lifecycle-viewmodel-ktx-2.6.1\res
+com.example.shesecure10.app-lifecycle-viewmodel-2.6.1-28 C:\Users\Hp\.gradle\caches\transforms-3\703cc6f87017c7a56544f1956eb32c25\transformed\lifecycle-viewmodel-2.6.1\res
+com.example.shesecure10.app-navigation-runtime-2.6.0-29 C:\Users\Hp\.gradle\caches\transforms-3\7b6cdf675d8bfb2b358cebfa7356af37\transformed\navigation-runtime-2.6.0\res
+com.example.shesecure10.app-coordinatorlayout-1.1.0-30 C:\Users\Hp\.gradle\caches\transforms-3\81fea070ab71b178bb0646485abfc715\transformed\coordinatorlayout-1.1.0\res
+com.example.shesecure10.app-credentials-1.2.0-rc01-31 C:\Users\Hp\.gradle\caches\transforms-3\8363f2e141f13d8e36aa79df6c82c25d\transformed\credentials-1.2.0-rc01\res
+com.example.shesecure10.app-credentials-play-services-auth-1.2.0-rc01-32 C:\Users\Hp\.gradle\caches\transforms-3\848009961f3434075abc449662564e7d\transformed\credentials-play-services-auth-1.2.0-rc01\res
+com.example.shesecure10.app-activity-1.8.0-33 C:\Users\Hp\.gradle\caches\transforms-3\8dc9423ef4949306dd904927cb2efac3\transformed\activity-1.8.0\res
+com.example.shesecure10.app-lifecycle-livedata-core-2.6.1-34 C:\Users\Hp\.gradle\caches\transforms-3\914a4635c3f0d0e002c95efbd1e9af75\transformed\lifecycle-livedata-core-2.6.1\res
+com.example.shesecure10.app-maps-scalebar-11.3.1-35 C:\Users\Hp\.gradle\caches\transforms-3\919e66d12420a57d1425894b7b698648\transformed\maps-scalebar-11.3.1\res
+com.example.shesecure10.app-lifecycle-livedata-2.6.1-36 C:\Users\Hp\.gradle\caches\transforms-3\95a0a9d00af7330a44be770ae8a423a1\transformed\lifecycle-livedata-2.6.1\res
+com.example.shesecure10.app-play-services-auth-20.7.0-37 C:\Users\Hp\.gradle\caches\transforms-3\9a368afcccc2a68bca8ae49d57e15a37\transformed\play-services-auth-20.7.0\res
+com.example.shesecure10.app-drawerlayout-1.1.1-38 C:\Users\Hp\.gradle\caches\transforms-3\9e62353a54c2660840e10ee1d98b0d4f\transformed\drawerlayout-1.1.1\res
+com.example.shesecure10.app-places-2.6.0-39 C:\Users\Hp\.gradle\caches\transforms-3\a5aea6b774a95feebd40c2ff9c9b9433\transformed\places-2.6.0\res
+com.example.shesecure10.app-lifecycle-process-2.6.1-40 C:\Users\Hp\.gradle\caches\transforms-3\b86862f5be6c7da1a98c3ece1cab9cdd\transformed\lifecycle-process-2.6.1\res
+com.example.shesecure10.app-emoji2-1.2.0-41 C:\Users\Hp\.gradle\caches\transforms-3\bc995c558cbf0fc5db8e61f869565ef0\transformed\emoji2-1.2.0\res
+com.example.shesecure10.app-startup-runtime-1.1.1-42 C:\Users\Hp\.gradle\caches\transforms-3\bd5f1b70c91d314d43b0b39f9aad9294\transformed\startup-runtime-1.1.1\res
+com.example.shesecure10.app-cardview-1.0.0-43 C:\Users\Hp\.gradle\caches\transforms-3\c05e33cbcd5f55711fa3e6f8a2971c40\transformed\cardview-1.0.0\res
+com.example.shesecure10.app-savedstate-1.2.1-44 C:\Users\Hp\.gradle\caches\transforms-3\c5aa8652cd4c3e5a18bae04e220cef01\transformed\savedstate-1.2.1\res
+com.example.shesecure10.app-maps-attribution-11.3.1-45 C:\Users\Hp\.gradle\caches\transforms-3\c98e51f5cf9a9944f17195b57a1bb878\transformed\maps-attribution-11.3.1\res
+com.example.shesecure10.app-appcompat-1.6.1-46 C:\Users\Hp\.gradle\caches\transforms-3\caa8c861c0900cf6392737888918b1ea\transformed\appcompat-1.6.1\res
+com.example.shesecure10.app-fragment-ktx-1.6.0-47 C:\Users\Hp\.gradle\caches\transforms-3\d10ebf4c338591b363ccb7d29148cb12\transformed\fragment-ktx-1.6.0\res
+com.example.shesecure10.app-appcompat-resources-1.6.1-48 C:\Users\Hp\.gradle\caches\transforms-3\d8e5f4b05e65a62220ec85ff2b2ea44c\transformed\appcompat-resources-1.6.1\res
+com.example.shesecure10.app-emoji2-views-helper-1.2.0-49 C:\Users\Hp\.gradle\caches\transforms-3\dd782d560bc06e9e5522665a0baac7f8\transformed\emoji2-views-helper-1.2.0\res
+com.example.shesecure10.app-profileinstaller-1.3.0-50 C:\Users\Hp\.gradle\caches\transforms-3\e33f0be0623594781b32703d17067e3c\transformed\profileinstaller-1.3.0\res
+com.example.shesecure10.app-maps-compass-11.3.1-51 C:\Users\Hp\.gradle\caches\transforms-3\e3799997d3951e4067619fdf697ce33a\transformed\maps-compass-11.3.1\res
+com.example.shesecure10.app-play-services-maps-18.1.0-52 C:\Users\Hp\.gradle\caches\transforms-3\e431eac2a98f5ec0346451119debc6b4\transformed\play-services-maps-18.1.0\res
+com.example.shesecure10.app-navigation-ui-2.6.0-53 C:\Users\Hp\.gradle\caches\transforms-3\e8f64bc67520f030f9264bf988e6a266\transformed\navigation-ui-2.6.0\res
+com.example.shesecure10.app-core-1.12.0-54 C:\Users\Hp\.gradle\caches\transforms-3\e909bd046da130b6783c6bec3561fd1e\transformed\core-1.12.0\res
+com.example.shesecure10.app-lifecycle-livedata-core-ktx-2.6.1-55 C:\Users\Hp\.gradle\caches\transforms-3\ea6847dc08ba1a615f2f77f5766546fc\transformed\lifecycle-livedata-core-ktx-2.6.1\res
+com.example.shesecure10.app-constraintlayout-2.1.4-56 C:\Users\Hp\.gradle\caches\transforms-3\f8479fd2804c09c973b7cbed21d534ab\transformed\constraintlayout-2.1.4\res
+com.example.shesecure10.app-browser-1.4.0-57 C:\Users\Hp\.gradle\caches\transforms-3\fd6155583c79a1c58ef0dd1d9a0d053c\transformed\browser-1.4.0\res
+com.example.shesecure10.app-pngs-58 D:\2-2\Sadlab\New folder\SAD LAB\app\build\generated\res\pngs\debug
+com.example.shesecure10.app-res-59 D:\2-2\Sadlab\New folder\SAD LAB\app\build\generated\res\processDebugGoogleServices
+com.example.shesecure10.app-resValues-60 D:\2-2\Sadlab\New folder\SAD LAB\app\build\generated\res\resValues\debug
+com.example.shesecure10.app-packageDebugResources-61 D:\2-2\Sadlab\New folder\SAD LAB\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.shesecure10.app-packageDebugResources-62 D:\2-2\Sadlab\New folder\SAD LAB\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.shesecure10.app-merged_res-63 D:\2-2\Sadlab\New folder\SAD LAB\app\build\intermediates\merged_res\debug
+com.example.shesecure10.app-debug-64 D:\2-2\Sadlab\New folder\SAD LAB\app\src\debug\res
+com.example.shesecure10.app-main-65 D:\2-2\Sadlab\New folder\SAD LAB\app\src\main\res

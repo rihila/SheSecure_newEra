@@ -56,9 +56,6 @@ public final class ActivityHomeBinding implements ViewBinding {
   public final ImageView imageView5;
 
   @NonNull
-  public final ImageView imageView6;
-
-  @NonNull
   public final LinearLayout linearLayout;
 
   @NonNull
@@ -80,6 +77,9 @@ public final class ActivityHomeBinding implements ViewBinding {
   public final CardView selfdefense;
 
   @NonNull
+  public final ImageView sosimage;
+
+  @NonNull
   public final TextView textView3;
 
   @NonNull
@@ -92,11 +92,12 @@ public final class ActivityHomeBinding implements ViewBinding {
       @NonNull TextView companion, @NonNull CardView highdanger, @NonNull ImageView homebg,
       @NonNull ImageView imageView13, @NonNull ImageView imageView15,
       @NonNull ImageView imageView16, @NonNull ImageView imageView2, @NonNull ImageView imageView3,
-      @NonNull ImageView imageView4, @NonNull ImageView imageView5, @NonNull ImageView imageView6,
+      @NonNull ImageView imageView4, @NonNull ImageView imageView5,
       @NonNull LinearLayout linearLayout, @NonNull LinearLayout linearLayout2,
       @NonNull LinearLayout linearLayout3, @NonNull LinearLayout linearLayout4,
       @NonNull TextView route, @NonNull CardView routeplanner, @NonNull CardView selfdefense,
-      @NonNull TextView textView3, @NonNull TextView tutorial, @NonNull CardView virtualcompanion) {
+      @NonNull ImageView sosimage, @NonNull TextView textView3, @NonNull TextView tutorial,
+      @NonNull CardView virtualcompanion) {
     this.rootView = rootView;
     this.alert = alert;
     this.companion = companion;
@@ -109,7 +110,6 @@ public final class ActivityHomeBinding implements ViewBinding {
     this.imageView3 = imageView3;
     this.imageView4 = imageView4;
     this.imageView5 = imageView5;
-    this.imageView6 = imageView6;
     this.linearLayout = linearLayout;
     this.linearLayout2 = linearLayout2;
     this.linearLayout3 = linearLayout3;
@@ -117,6 +117,7 @@ public final class ActivityHomeBinding implements ViewBinding {
     this.route = route;
     this.routeplanner = routeplanner;
     this.selfdefense = selfdefense;
+    this.sosimage = sosimage;
     this.textView3 = textView3;
     this.tutorial = tutorial;
     this.virtualcompanion = virtualcompanion;
@@ -215,12 +216,6 @@ public final class ActivityHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.imageView6;
-      ImageView imageView6 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView6 == null) {
-        break missingId;
-      }
-
       id = R.id.linearLayout;
       LinearLayout linearLayout = ViewBindings.findChildViewById(rootView, id);
       if (linearLayout == null) {
@@ -263,6 +258,12 @@ public final class ActivityHomeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.sosimage;
+      ImageView sosimage = ViewBindings.findChildViewById(rootView, id);
+      if (sosimage == null) {
+        break missingId;
+      }
+
       id = R.id.textView3;
       TextView textView3 = ViewBindings.findChildViewById(rootView, id);
       if (textView3 == null) {
@@ -283,8 +284,8 @@ public final class ActivityHomeBinding implements ViewBinding {
 
       return new ActivityHomeBinding((ConstraintLayout) rootView, alert, companion, highdanger,
           homebg, imageView13, imageView15, imageView16, imageView2, imageView3, imageView4,
-          imageView5, imageView6, linearLayout, linearLayout2, linearLayout3, linearLayout4, route,
-          routeplanner, selfdefense, textView3, tutorial, virtualcompanion);
+          imageView5, linearLayout, linearLayout2, linearLayout3, linearLayout4, route,
+          routeplanner, selfdefense, sosimage, textView3, tutorial, virtualcompanion);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

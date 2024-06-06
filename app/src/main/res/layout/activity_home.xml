@@ -325,7 +325,7 @@
     </LinearLayout>
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/sosimage"
         android:layout_width="129dp"
         android:layout_height="146dp"
         android:layout_marginTop="32dp"
@@ -380,7 +380,7 @@
         android:textSize="35sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
-        app:layout_constraintEnd_toStartOf="@+id/imageView6"
+        app:layout_constraintEnd_toStartOf="@+id/sosimage"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
 

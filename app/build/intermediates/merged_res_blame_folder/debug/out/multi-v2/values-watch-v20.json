@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.shesecure10.app-mergeDebugResources-49:/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "com.example.shesecure10.app-mergeDebugResources-61:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Rihila Sumayya\\.gradle\\caches\\transforms-3\\1862e00d1ecf26ee57c1a966a6d7e274\\transformed\\appcompat-1.6.1\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "source": "C:\\Users\\Hp\\.gradle\\caches\\transforms-3\\caa8c861c0900cf6392737888918b1ea\\transformed\\appcompat-1.6.1\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Rihila Sumayya\\.gradle\\caches\\transforms-3\\67548d760f02f06a1525ec5db65063af\\transformed\\play-services-auth-20.7.0\\res\\values-watch-v20\\values.xml",
+                    "source": "C:\\Users\\Hp\\.gradle\\caches\\transforms-3\\9a368afcccc2a68bca8ae49d57e15a37\\transformed\\play-services-auth-20.7.0\\res\\values-watch-v20\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",

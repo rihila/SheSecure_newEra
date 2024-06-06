@@ -10,6 +10,7 @@
     <string name="google_api_key" translatable="false">AIzaSyB0epn67Z9kxHSHpGG80iQWx_EdPAxA9Rg</string>
     <string name="google_app_id" translatable="false">1:149106940799:android:286c9bc85201bdd28dd84a</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB0epn67Z9kxHSHpGG80iQWx_EdPAxA9Rg</string>
+    <string name="google_maps_key">AIzaSyD4TwHpUW4XhTHE228h2lydhOKKF3N5adM</string>
     <string name="google_storage_bucket" translatable="false">she1-0.appspot.com</string>
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
@@ -51,6 +52,7 @@
     <string name="previous">Previous</string>
     <string name="project_id" translatable="false">she1-0</string>
     <string name="second_fragment_label">Second Fragment</string>
+    <string name="title_activity_maps">MapsActivity</string>
     <string name="title_activity_virtual">VirtualActivity</string>
     <style name="Base.Theme.SHESECURE10" parent="Theme.Material3.DayNight.NoActionBar">
         

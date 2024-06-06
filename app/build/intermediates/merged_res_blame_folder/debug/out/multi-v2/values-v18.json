@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.shesecure10.app-mergeDebugResources-49:/values-v18/values-v18.xml",
+            "outputFile": "com.example.shesecure10.app-mergeDebugResources-61:/values-v18/values-v18.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Rihila Sumayya\\.gradle\\caches\\transforms-3\\1862e00d1ecf26ee57c1a966a6d7e274\\transformed\\appcompat-1.6.1\\res\\values-v18\\values-v18.xml",
+                    "source": "C:\\Users\\Hp\\.gradle\\caches\\transforms-3\\caa8c861c0900cf6392737888918b1ea\\transformed\\appcompat-1.6.1\\res\\values-v18\\values-v18.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

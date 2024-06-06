@@ -10,5 +10,6 @@ public final class BuildConfig {
   public static final int VERSION_CODE = 1;
   public static final String VERSION_NAME = "1.0";
   // Field from default config.
-  public static final String API_KEY = "";
+  public static final String API_KEY = "AIzaSyC9TdV3w6aGAbJ6Gp2t5Da3K5Y2p0IToi4";
+  public static final String MAPS_API_KEY = "AIzaSyD4TwHpUW4XhTHE228h2lydhOKKF3N5adM ";
 }
